@@ -1,0 +1,53 @@
+{% extends 'catalogo/base.html' %}
+
+{% block title %}Productos{% endblock %}
+
+{% block content %}
+<h2>Listado de Productos</h2>
+
+<!-- Resumen Calculado -->
+<div class="summary-container">
+    <div class="summary-box">
+        <h4>Total Productos</h4>
+        <p style="font-size: 1.2rem; margin:0;"><strong>{{ total_productos }}</strong></p>
+    </div>
+    <div class="summary-box">
+        <h4>Con Stock</h4>
+        <p style="font-size: 1.2rem; color: #28a745; margin:0;"><strong>{{ con_stock }}</strong></p>
+    </div>
+    <div class="summary-box">
+        <h4>Sin Stock / Agotados</h4>
+        <p style="font-size: 1.2rem; color: #dc3545; margin:0;"><strong>{{ sin_stock }}</strong></p>
+    </div>
+</div>
+
+<div class="grid">
+    {% for prod in productos %}
+    <div class="card {% if prod.stock == 0 %}sin-stock{% endif %}">
+        <div>
+            <!-- Imagen cargada directamente desde URL web -->
+            {% if prod.imagen %}
+                <div style="text-align: center; margin-bottom: 10px;">
+                    <img src="{{ prod.imagen }}" alt="{{ prod.nombre }}" style="width: 100%; height: 140px; object-fit: cover; border-radius: 4px;">
+                </div>
+            {% endif %}
+
+            <span class="badge">{{ prod.categoria }}</span>
+            <h3>{{ prod.nombre }}</h3>
+            <p><strong>Precio:</strong> ${{ prod.precio }}</p>
+            <p>
+                <strong>Stock:</strong> 
+                {% if prod.stock > 0 %}
+                    {{ prod.stock }} un.
+                {% else %}
+                    <strong style="color: #721c24;">AGOTADO</strong>
+                {% endif %}
+            </p>
+        </div>
+        <a href="{% url 'detalle_producto' prod.id %}" class="btn">Ver Detalle</a>
+    </div>
+    {% empty %}
+    <p>No existen productos en el catálogo.</p>
+    {% endfor %}
+</div>
+{% endblock %}

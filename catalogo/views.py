@@ -3,16 +3,8 @@ import os
 from django.shortcuts import render
 from django.http import Http404
 from django.conf import settings
-from django.shortcuts import render
 
-# Create your views here.
-from django.http import HttpResponse
-
-# Documentación: Vista de prueba inicial para validar el enrutamiento
-def lista_productos(request):
-    return HttpResponse("Servidor funcionando. App catalogo activa.")
-
-# Documentación: Función para cargar los datos desde el archivo JSON
+# Documentación: Función auxiliar para cargar los datos desde el archivo JSON
 def obtener_productos_json():
     ruta = os.path.join(settings.BASE_DIR, 'catalogo', 'data', 'productos.json')
     if not os.path.exists(ruta):
@@ -20,12 +12,24 @@ def obtener_productos_json():
     with open(ruta, 'r', encoding='utf-8') as archivo:
         return json.load(archivo)
 
-# Documentación: Lista completa de productos
+# Documentación: Vista principal con resumen calculado y listado completo de productos[cite: 1]
 def lista_productos(request):
     productos = obtener_productos_json()
-    return render(request, 'catalogo/lista.html', {'productos': productos})
 
-# Documentación: Detalle por id con manejo del caso inexistente (404)
+    # Cálculos dinámicos realizados desde la vista[cite: 1]
+    total_productos = len(productos)
+    con_stock = sum(1 for p in productos if p['stock'] > 0)
+    sin_stock = total_productos - con_stock
+
+    contexto = {
+        'productos': productos,
+        'total_productos': total_productos,
+        'con_stock': con_stock,
+        'sin_stock': sin_stock
+    }
+    return render(request, 'catalogo/lista.html', contexto)
+
+# Documentación: Vista de detalle por ID con manejo de error 404 para casos inexistentes[cite: 1]
 def detalle_producto(request, producto_id):
     productos = obtener_productos_json()
     producto = next((p for p in productos if p['id'] == producto_id), None)
