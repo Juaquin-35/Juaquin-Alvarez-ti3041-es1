@@ -1,0 +1,30 @@
+{% extends 'catalogo/base.html' %}
+
+{% block title %}Productos{% endblock %}
+
+{% block content %}
+<h2>Listado de Productos</h2>
+
+<div class="grid">
+    {% for prod in productos %}
+    <div class="card {% if prod.stock == 0 %}sin-stock{% endif %}">
+        <div>
+            <span class="badge">{{ prod.categoria }}</span>
+            <h3>{{ prod.nombre }}</h3>
+            <p><strong>Precio:</strong> ${{ prod.precio }}</p>
+            <p>
+                <strong>Stock:</strong> 
+                {% if prod.stock > 0 %}
+                    {{ prod.stock }} un.
+                {% else %}
+                    <strong style="color: #721c24;">AGOTADO</strong>
+                {% endif %}
+            </p>
+        </div>
+        <a href="{% url 'detalle_producto' prod.id %}" class="btn">Ver Detalle</a>
+    </div>
+    {% empty %}
+    <p>No existen productos en el catálogo.</p>
+    {% endfor %}
+</div>
+{% endblock %}

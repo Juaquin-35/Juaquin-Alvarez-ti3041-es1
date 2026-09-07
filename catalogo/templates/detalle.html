@@ -1,0 +1,21 @@
+{% extends 'catalogo/base.html' %}
+
+{% block title %}{{ producto.nombre }}{% endblock %}
+
+{% block content %}
+<div class="card" style="max-width: 600px; margin: 0 auto;">
+    <h2>{{ producto.nombre }}</h2>
+    <p><span class="badge">{{ producto.categoria }}</span></p>
+    <hr>
+    <p><strong>ID del Producto:</strong> {{ producto.id }}</p>
+    <p><strong>Precio unitario:</strong> ${{ producto.precio }}</p>
+    <p><strong>Stock actual:</strong> {{ producto.stock }} unidades</p>
+
+    {% if producto.stock == 0 %}
+        <p style="color: #721c24; font-weight: bold;">⚠️ Este producto no se encuentra disponible momentáneamente.</p>
+    {% endif %}
+
+    <br>
+    <a href="{% url 'lista_productos' %}" class="btn">← Volver al catálogo</a>
+</div>
+{% endblock %}
