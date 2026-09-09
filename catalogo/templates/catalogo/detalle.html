@@ -18,9 +18,36 @@
     <p><strong>Precio unitario:</strong> ${{ producto.precio }}</p>
     <p><strong>Stock actual:</strong> {{ producto.stock }} unidades</p>
     
-    {% if producto.stock == 0 %}
-        <p style="color: #721c24; font-weight: bold;">⚠️ Este producto no se encuentra disponible momentáneamente.</p>
+    <!-- Mensajes de respuesta tras intentar realizar una compra -->
+    {% if mensaje %}
+        <p style="color: #155724; background-color: #d4edda; padding: 10px; border-radius: 4px; margin-top: 15px;">{{ mensaje }}</p>
     {% endif %}
+
+    {% if error %}
+        <p style="color: #721c24; background-color: #f8d7da; padding: 10px; border-radius: 4px; margin-top: 15px;">{{ error }}</p>
+    {% endif %}
+
+    {% if producto.stock == 0 and not error %}
+        <p style="color: #721c24; font-weight: bold; margin-top: 15px;">⚠️ Este producto no se encuentra disponible momentáneamente.</p>
+    {% endif %}
+
+    <!-- Control de Sesión y Formulario de Compra -->
+    <div style="margin-top: 20px;">
+        {% if request.session.username %}
+            {% if producto.stock > 0 %}
+                <form action="{% url 'realizar_compra' producto.id %}" method="POST">
+                    {% csrf_token %}
+                    <button type="submit" class="btn" style="background-color: #28a745; color: white; width: 100%; padding: 10px; cursor: pointer; border: none; border-radius: 4px;">Comprar ahora</button>
+                </form>
+            {% else %}
+                <button class="btn" disabled style="background-color: #ccc; width: 100%; padding: 10px; border: none; border-radius: 4px; cursor: not-allowed;">Agotado</button>
+            {% endif %}
+        {% else %}
+            <p style="text-align: center; background-color: #f8f9fa; padding: 10px; border-radius: 4px; border: 1px solid #ddd;">
+                <a href="{% url 'login' %}" style="color: #0056b3; font-weight: bold;">Inicia sesión</a> para poder comprar este producto.
+            </p>
+        {% endif %}
+    </div>
 
     <br>
     <a href="{% url 'lista_productos' %}" class="btn">← Volver al catálogo</a>

@@ -1,42 +1,322 @@
 [
-  {"id": 1, "nombre": "Martillo de Uña 16oz", "categoria": "Herramientas Manuales", "precio": 8990, "stock": 15, "imagen": "https://olateferreteria.cl/wp-content/uploads/2025/01/Martillo-Carpintero-Una-Curva-16oz-TRUPER.png?w=400"},
-  {"id": 2, "nombre": "Destornillador Phillips 6x100mm", "categoria": "Herramientas Manuales", "precio": 2490, "stock": 30, "imagen": "https://http2.mlstatic.com/D_NQ_NP_873951-CBT114486528017_072026-O.webp?w=400"},
-  {"id": 3, "nombre": "Taladro Percutor 650W", "categoria": "Herramientas Eléctricas", "precio": 45990, "stock": 8, "imagen": "https://cdnx.jumpseller.com/ferroelectronic/image/49375624/Tg1061336_%E5%89%AF%E6%9C%AC.png?1762960495?w=400"},
-  {"id": 4, "nombre": "Sierra Circular 7 1/4", "categoria": "Herramientas Eléctricas", "precio": 62990, "stock": 0, "imagen": "https://makita.cl/wp-content/uploads/2025/04/5007MGK.webp?w=400"},
-  {"id": 5, "nombre": "Juego de Llaves Allen 9 pzs", "categoria": "Herramientas Manuales", "precio": 5990, "stock": 25, "imagen": "https://media.falabella.com/falabellaCL/115794595_01/w=1004,h=1500,fit=pad?w=400"},
-  {"id": 6, "nombre": "Alicate Universal 8 Pulgadas", "categoria": "Herramientas Manuales", "precio": 4290, "stock": 12, "imagen": "https://www.weitzler.cl/bitobee/wp-content/uploads/2022/11/65002100003.jpg?w=400"},
-  {"id": 7, "nombre": "Cinta Métrica 5 metros", "categoria": "Medición", "precio": 3190, "stock": 50, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlkkkFTrA1-4MIEfIhUm3P-fgRyz5Oy0whxMdo8zB86ojIyEIrSdbLPo&s=10?w=400"},
-  {"id": 8, "nombre": "Nivel de Aluminio 24 Pulgadas", "categoria": "Medición", "precio": 9990, "stock": 6, "imagen": "https://dojiw2m9tvv09.cloudfront.net/44838/product/template-bag-1-356960.jpg?w=400"},
-  {"id": 9, "nombre": "Lijadora Orbital 220W", "categoria": "Herramientas Eléctricas", "precio": 29990, "stock": 4, "imagen": "https://media.falabella.com/sodimacCL/3599639_001/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 10, "nombre": "Esmeril Angular 4.5 Pulgadas", "categoria": "Herramientas Eléctricas", "precio": 38990, "stock": 0, "imagen": "https://oyp.cl/site/wp-content/uploads/2025/06/26052020123542185584897.jpg?w=400"},
-  {"id": 11, "nombre": "Caja de Herramientas Plástica 19", "categoria": "Almacenamiento", "precio": 14990, "stock": 10, "imagen": "https://cdnx.jumpseller.com/ferroelectronic/image/70929319/TPBXS103.webp?1766503417?w=400"},
-  {"id": 12, "nombre": "Set de Brocas Concreto 5 pzs", "categoria": "Accesorios", "precio": 4990, "stock": 18, "imagen": "https://media.falabella.com/falabellaCL/149902610_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 13, "nombre": "Pistola de Silicona 40W", "categoria": "Adhesivos y Fijaciones", "precio": 6490, "stock": 22, "imagen": "https://media.falabella.com/falabellaCL/121823227_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 14, "nombre": "Disco de Corte para Metal 4.5", "categoria": "Accesorios", "precio": 1290, "stock": 100, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0zgwuuboGJIdpdYPXnXZgTd2Ie10LQqo-mdCDMNADEMcPhN1lqfXJp7b&s=10?w=400"},
-  {"id": 15, "nombre": "Llave Ajustable (Francesa) 10", "categoria": "Herramientas Manuales", "precio": 7990, "stock": 7, "imagen": "https://media.falabella.com/sodimacCL/9018034_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 16, "nombre": "Cilindro de Gas Propano 400g", "categoria": "Gasfitería", "precio": 5290, "stock": 14, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0kUF08T19XI4ZeChjcTaetiRI08Zse2XZBKYIoUSbymr05hP1eg44ZhZc&s=10?w=400"},
-  {"id": 17, "nombre": "Soplete Manual Multiuso", "categoria": "Gasfitería", "precio": 12990, "stock": 3, "imagen": "https://www.construmart.cl/media/catalog/product/s/o/soplete-gas-encendido-manual-sin-piezo-160-plus-176574-1_nkjkkyhyt4a2wpz5.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700?w=400"},
-  {"id": 18, "nombre": "Tubo PVC Hidráulico 20mm x 3m", "categoria": "Gasfitería", "precio": 3890, "stock": 40, "imagen": "https://media.falabella.com/sodimacCL/54065X_001/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 19, "nombre": "Llave de Paso Esférica 1/2", "categoria": "Gasfitería", "precio": 2990, "stock": 0, "imagen": "https://http2.mlstatic.com/D_NQ_NP_807299-MLU71422761912_092023-O.webp?w=400"},
-  {"id": 20, "nombre": "Cinta Teflón 12mm x 10m", "categoria": "Gasfitería", "precio": 690, "stock": 80, "imagen": "https://cdnx.jumpseller.com/casa-contigo/image/65071272/resize/610/610?1751482397?w=400"},
-  {"id": 21, "nombre": "Cable Eléctrico EVA 2.5mm2 100m", "categoria": "Electricidad", "precio": 34990, "stock": 5, "imagen": "https://easycl.vteximg.com.br/arquivos/ids/4906203/823913-0600-001.jpg?v=638863656679530000?w=400"},
-  {"id": 22, "nombre": "Interruptor Embutido Simple", "categoria": "Electricidad", "precio": 1890, "stock": 35, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJ5fUKhuLy8Th6P3AXJWbGdlOvmpkgPft5L5XnplJrLHqf7SNFZHweWH7&s=10?w=400"},
-  {"id": 23, "nombre": "Enchufe Hembra Sobrepuesto", "categoria": "Electricidad", "precio": 1490, "stock": 28, "imagen": "https://casamusacl.vtexassets.com/arquivos/ids/160003/344409.jpg?v=638058408432300000?w=400"},
-  {"id": 24, "nombre": "Cinta Aislante Negra 20m", "categoria": "Electricidad", "precio": 990, "stock": 60, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMoBCloloQEIhsOmh7FLpslq0XUNC4ZwhKstrNDnMXY-vy2ROfhfBXktLm&s=10?w=400"},
-  {"id": 25, "nombre": "Ampolleta LED 9W Cálida E27", "categoria": "Electricidad", "precio": 1290, "stock": 45, "imagen": "https://www.construmart.cl/media/catalog/product/a/m/ampolleta-led-e27-9-w-luz-calida-246868-1_sb1lej3v8cg8gguj.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700?w=400"},
-  {"id": 26, "nombre": "Esmalte Sintético Blanco 1 Galón", "categoria": "Pinturas", "precio": 22990, "stock": 9, "imagen": "https://media.falabella.com/sodimacCL/7770413_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 27, "nombre": "Brocha Cerda Natural 3 Pulgadas", "categoria": "Pinturas", "precio": 2490, "stock": 16, "imagen": "https://i5.walmartimages.cl/asr/d7235ddf-d55a-4db7-bf82-2d3da5a85302.88aad15afbd19e70dda21f3ad5810a82.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF?w=400"},
-  {"id": 28, "nombre": "Rodillo Antigota 23cm con Mango", "categoria": "Pinturas", "precio": 4590, "stock": 11, "imagen": "https://www.lavenecia.cl/wp-content/uploads/RODILLO-ANTIGORA.png?w=400"},
-  {"id": 29, "nombre": "Pasta Muro Interior 1.5kg", "categoria": "Pinturas", "precio": 3290, "stock": 0, "imagen": "https://http2.mlstatic.com/D_NQ_NP_891255-MLC101070155834_122025-O.webp?w=400"},
-  {"id": 30, "nombre": "Lija para Madera Grano 120", "categoria": "Pinturas", "precio": 490, "stock": 120, "imagen": "https://ferreteriachacabuco.cl/cdn/shop/products/3779.jpg?v=1696444469?w=400"},
-  {"id": 31, "nombre": "Caja de Clavos para Madera 2 (1kg)", "categoria": "Fijaciones", "precio": 2990, "stock": 25, "imagen": "https://cdn.homedepot.com.mx/productos/971137/971137-d.jpg?w=400"},
-  {"id": 32, "nombre": "Tornillo Autoperforante 6x1 (100 pzs)", "categoria": "Fijaciones", "precio": 3490, "stock": 30, "imagen": "https://www.construmart.cl/media/catalog/product/t/o/tornillo-autoperforante-trompeta-punta-broca-6-x-1-84852-2_6y0dpbfkwny8wzjq.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700?w=400"},
-  {"id": 33, "nombre": "Tarugo S6 con Tornillo (50 pzs)", "categoria": "Fijaciones", "precio": 2190, "stock": 19, "imagen": "https://media.falabella.com/sodimacCL/7483325_001/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 34, "nombre": "Candado de Bronce 40mm", "categoria": "Seguridad", "precio": 5990, "stock": 13, "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9DKVteh4e1gHxg52vG4dMD8hUKG6N5JLctO7J74atLKz8FAUBrfwHJsE&s=10?w=400"},
-  {"id": 35, "nombre": "Cerradura de Pomo para Dormitorio", "categoria": "Seguridad", "precio": 8990, "stock": 8, "imagen": "https://media.falabella.com/sodimacCL/3506126_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 36, "nombre": "Guantes de Cabritilla Talla L", "categoria": "Protección Personal", "precio": 3990, "stock": 22, "imagen": "https://http2.mlstatic.com/D_NQ_NP_895887-MLA99523349894_122025-O.webp?w=400"},
-  {"id": 37, "nombre": "Lentes de Seguridad Transparentes", "categoria": "Protección Personal", "precio": 1990, "stock": 35, "imagen": "https://media.falabella.com/sodimacCL/2678578_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 38, "nombre": "Mascara Anti-Polvo N95", "categoria": "Protección Personal", "precio": 1490, "stock": 0, "imagen": "https://multimedia.3m.com/mws/media/2601017J/3m-particulate-respirator-8210v-n95.jpg?width=506?w=400"},
-  {"id": 39, "nombre": "Escuadra de Carpintero 12", "categoria": "Medición", "precio": 4290, "stock": 14, "imagen": "https://media.falabella.com/sodimacCL/9017607_01/w=1500,h=1500,fit=cover?w=400"},
-  {"id": 40, "nombre": "Formón para Madera 3/4", "categoria": "Herramientas Manuales", "precio": 5490, "stock": 6, "imagen": "https://media.falabella.com/sodimacCL/3328449_001/w=1500,h=1500,fit=cover?w=400"}
+  {
+    "id": 1,
+    "nombre": "Martillo de Uña 16oz",
+    "categoria": "Herramientas Manuales",
+    "precio": 8990,
+    "stock": 14,
+    "imagen": "https://olateferreteria.cl/wp-content/uploads/2025/01/Martillo-Carpintero-Una-Curva-16oz-TRUPER.png?w=400"
+  },
+  {
+    "id": 2,
+    "nombre": "Destornillador Phillips 6x100mm",
+    "categoria": "Herramientas Manuales",
+    "precio": 2490,
+    "stock": 27,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_873951-CBT114486528017_072026-O.webp?w=400"
+  },
+  {
+    "id": 3,
+    "nombre": "Taladro Percutor 650W",
+    "categoria": "Herramientas Eléctricas",
+    "precio": 45990,
+    "stock": 8,
+    "imagen": "https://cdnx.jumpseller.com/ferroelectronic/image/49375624/Tg1061336_%E5%89%AF%E6%9C%AC.png?1762960495?w=400"
+  },
+  {
+    "id": 4,
+    "nombre": "Sierra Circular 7 1/4",
+    "categoria": "Herramientas Eléctricas",
+    "precio": 62990,
+    "stock": 0,
+    "imagen": "https://makita.cl/wp-content/uploads/2025/04/5007MGK.webp?w=400"
+  },
+  {
+    "id": 5,
+    "nombre": "Juego de Llaves Allen 9 pzs",
+    "categoria": "Herramientas Manuales",
+    "precio": 5990,
+    "stock": 25,
+    "imagen": "https://media.falabella.com/falabellaCL/115794595_01/w=1004,h=1500,fit=pad?w=400"
+  },
+  {
+    "id": 6,
+    "nombre": "Alicate Universal 8 Pulgadas",
+    "categoria": "Herramientas Manuales",
+    "precio": 4290,
+    "stock": 12,
+    "imagen": "https://www.weitzler.cl/bitobee/wp-content/uploads/2022/11/65002100003.jpg?w=400"
+  },
+  {
+    "id": 7,
+    "nombre": "Cinta Métrica 5 metros",
+    "categoria": "Medición",
+    "precio": 3190,
+    "stock": 50,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlkkkFTrA1-4MIEfIhUm3P-fgRyz5Oy0whxMdo8zB86ojIyEIrSdbLPo&s=10?w=400"
+  },
+  {
+    "id": 8,
+    "nombre": "Nivel de Aluminio 24 Pulgadas",
+    "categoria": "Medición",
+    "precio": 9990,
+    "stock": 6,
+    "imagen": "https://dojiw2m9tvv09.cloudfront.net/44838/product/template-bag-1-356960.jpg?w=400"
+  },
+  {
+    "id": 9,
+    "nombre": "Lijadora Orbital 220W",
+    "categoria": "Herramientas Eléctricas",
+    "precio": 29990,
+    "stock": 4,
+    "imagen": "https://media.falabella.com/sodimacCL/3599639_001/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 10,
+    "nombre": "Esmeril Angular 4.5 Pulgadas",
+    "categoria": "Herramientas Eléctricas",
+    "precio": 38990,
+    "stock": 0,
+    "imagen": "https://oyp.cl/site/wp-content/uploads/2025/06/26052020123542185584897.jpg?w=400"
+  },
+  {
+    "id": 11,
+    "nombre": "Caja de Herramientas Plástica 19",
+    "categoria": "Almacenamiento",
+    "precio": 14990,
+    "stock": 10,
+    "imagen": "https://cdnx.jumpseller.com/ferroelectronic/image/70929319/TPBXS103.webp?1766503417?w=400"
+  },
+  {
+    "id": 12,
+    "nombre": "Set de Brocas Concreto 5 pzs",
+    "categoria": "Accesorios",
+    "precio": 4990,
+    "stock": 18,
+    "imagen": "https://media.falabella.com/falabellaCL/149902610_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 13,
+    "nombre": "Pistola de Silicona 40W",
+    "categoria": "Adhesivos y Fijaciones",
+    "precio": 6490,
+    "stock": 22,
+    "imagen": "https://media.falabella.com/falabellaCL/121823227_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 14,
+    "nombre": "Disco de Corte para Metal 4.5",
+    "categoria": "Accesorios",
+    "precio": 1290,
+    "stock": 100,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0zgwuuboGJIdpdYPXnXZgTd2Ie10LQqo-mdCDMNADEMcPhN1lqfXJp7b&s=10?w=400"
+  },
+  {
+    "id": 15,
+    "nombre": "Llave Ajustable (Francesa) 10",
+    "categoria": "Herramientas Manuales",
+    "precio": 7990,
+    "stock": 7,
+    "imagen": "https://media.falabella.com/sodimacCL/9018034_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 16,
+    "nombre": "Cilindro de Gas Propano 400g",
+    "categoria": "Gasfitería",
+    "precio": 5290,
+    "stock": 14,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0kUF08T19XI4ZeChjcTaetiRI08Zse2XZBKYIoUSbymr05hP1eg44ZhZc&s=10?w=400"
+  },
+  {
+    "id": 17,
+    "nombre": "Soplete Manual Multiuso",
+    "categoria": "Gasfitería",
+    "precio": 12990,
+    "stock": 3,
+    "imagen": "https://www.construmart.cl/media/catalog/product/s/o/soplete-gas-encendido-manual-sin-piezo-160-plus-176574-1_nkjkkyhyt4a2wpz5.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700?w=400"
+  },
+  {
+    "id": 18,
+    "nombre": "Tubo PVC Hidráulico 20mm x 3m",
+    "categoria": "Gasfitería",
+    "precio": 3890,
+    "stock": 40,
+    "imagen": "https://media.falabella.com/sodimacCL/54065X_001/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 19,
+    "nombre": "Llave de Paso Esférica 1/2",
+    "categoria": "Gasfitería",
+    "precio": 2990,
+    "stock": 0,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_807299-MLU71422761912_092023-O.webp?w=400"
+  },
+  {
+    "id": 20,
+    "nombre": "Cinta Teflón 12mm x 10m",
+    "categoria": "Gasfitería",
+    "precio": 690,
+    "stock": 80,
+    "imagen": "https://cdnx.jumpseller.com/casa-contigo/image/65071272/resize/610/610?1751482397?w=400"
+  },
+  {
+    "id": 21,
+    "nombre": "Cable Eléctrico EVA 2.5mm2 100m",
+    "categoria": "Electricidad",
+    "precio": 34990,
+    "stock": 5,
+    "imagen": "https://easycl.vteximg.com.br/arquivos/ids/4906203/823913-0600-001.jpg?v=638863656679530000?w=400"
+  },
+  {
+    "id": 22,
+    "nombre": "Interruptor Embutido Simple",
+    "categoria": "Electricidad",
+    "precio": 1890,
+    "stock": 35,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJ5fUKhuLy8Th6P3AXJWbGdlOvmpkgPft5L5XnplJrLHqf7SNFZHweWH7&s=10?w=400"
+  },
+  {
+    "id": 23,
+    "nombre": "Enchufe Hembra Sobrepuesto",
+    "categoria": "Electricidad",
+    "precio": 1490,
+    "stock": 28,
+    "imagen": "https://casamusacl.vtexassets.com/arquivos/ids/160003/344409.jpg?v=638058408432300000?w=400"
+  },
+  {
+    "id": 24,
+    "nombre": "Cinta Aislante Negra 20m",
+    "categoria": "Electricidad",
+    "precio": 990,
+    "stock": 60,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMoBCloloQEIhsOmh7FLpslq0XUNC4ZwhKstrNDnMXY-vy2ROfhfBXktLm&s=10?w=400"
+  },
+  {
+    "id": 25,
+    "nombre": "Ampolleta LED 9W Cálida E27",
+    "categoria": "Electricidad",
+    "precio": 1290,
+    "stock": 45,
+    "imagen": "https://www.construmart.cl/media/catalog/product/a/m/ampolleta-led-e27-9-w-luz-calida-246868-1_sb1lej3v8cg8gguj.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700?w=400"
+  },
+  {
+    "id": 26,
+    "nombre": "Esmalte Sintético Blanco 1 Galón",
+    "categoria": "Pinturas",
+    "precio": 22990,
+    "stock": 9,
+    "imagen": "https://media.falabella.com/sodimacCL/7770413_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 27,
+    "nombre": "Brocha Cerda Natural 3 Pulgadas",
+    "categoria": "Pinturas",
+    "precio": 2490,
+    "stock": 16,
+    "imagen": "https://i5.walmartimages.cl/asr/d7235ddf-d55a-4db7-bf82-2d3da5a85302.88aad15afbd19e70dda21f3ad5810a82.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF?w=400"
+  },
+  {
+    "id": 28,
+    "nombre": "Rodillo Antigota 23cm con Mango",
+    "categoria": "Pinturas",
+    "precio": 4590,
+    "stock": 11,
+    "imagen": "https://www.lavenecia.cl/wp-content/uploads/RODILLO-ANTIGORA.png?w=400"
+  },
+  {
+    "id": 29,
+    "nombre": "Pasta Muro Interior 1.5kg",
+    "categoria": "Pinturas",
+    "precio": 3290,
+    "stock": 0,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_891255-MLC101070155834_122025-O.webp?w=400"
+  },
+  {
+    "id": 30,
+    "nombre": "Lija para Madera Grano 120",
+    "categoria": "Pinturas",
+    "precio": 490,
+    "stock": 120,
+    "imagen": "https://ferreteriachacabuco.cl/cdn/shop/products/3779.jpg?v=1696444469?w=400"
+  },
+  {
+    "id": 31,
+    "nombre": "Caja de Clavos para Madera 2 (1kg)",
+    "categoria": "Fijaciones",
+    "precio": 2990,
+    "stock": 25,
+    "imagen": "https://cdn.homedepot.com.mx/productos/971137/971137-d.jpg?w=400"
+  },
+  {
+    "id": 32,
+    "nombre": "Tornillo Autoperforante 6x1 (100 pzs)",
+    "categoria": "Fijaciones",
+    "precio": 3490,
+    "stock": 30,
+    "imagen": "https://www.construmart.cl/media/catalog/product/t/o/tornillo-autoperforante-trompeta-punta-broca-6-x-1-84852-2_6y0dpbfkwny8wzjq.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=700&width=700&canvas=700:700?w=400"
+  },
+  {
+    "id": 33,
+    "nombre": "Tarugo S6 con Tornillo (50 pzs)",
+    "categoria": "Fijaciones",
+    "precio": 2190,
+    "stock": 19,
+    "imagen": "https://media.falabella.com/sodimacCL/7483325_001/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 34,
+    "nombre": "Candado de Bronce 40mm",
+    "categoria": "Seguridad",
+    "precio": 5990,
+    "stock": 13,
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9DKVteh4e1gHxg52vG4dMD8hUKG6N5JLctO7J74atLKz8FAUBrfwHJsE&s=10?w=400"
+  },
+  {
+    "id": 35,
+    "nombre": "Cerradura de Pomo para Dormitorio",
+    "categoria": "Seguridad",
+    "precio": 8990,
+    "stock": 8,
+    "imagen": "https://media.falabella.com/sodimacCL/3506126_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 36,
+    "nombre": "Guantes de Cabritilla Talla L",
+    "categoria": "Protección Personal",
+    "precio": 3990,
+    "stock": 22,
+    "imagen": "https://http2.mlstatic.com/D_NQ_NP_895887-MLA99523349894_122025-O.webp?w=400"
+  },
+  {
+    "id": 37,
+    "nombre": "Lentes de Seguridad Transparentes",
+    "categoria": "Protección Personal",
+    "precio": 1990,
+    "stock": 35,
+    "imagen": "https://media.falabella.com/sodimacCL/2678578_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 38,
+    "nombre": "Mascara Anti-Polvo N95",
+    "categoria": "Protección Personal",
+    "precio": 1490,
+    "stock": 0,
+    "imagen": "https://multimedia.3m.com/mws/media/2601017J/3m-particulate-respirator-8210v-n95.jpg?width=506?w=400"
+  },
+  {
+    "id": 39,
+    "nombre": "Escuadra de Carpintero 12",
+    "categoria": "Medición",
+    "precio": 4290,
+    "stock": 14,
+    "imagen": "https://media.falabella.com/sodimacCL/9017607_01/w=1500,h=1500,fit=cover?w=400"
+  },
+  {
+    "id": 40,
+    "nombre": "Formón para Madera 3/4",
+    "categoria": "Herramientas Manuales",
+    "precio": 5490,
+    "stock": 6,
+    "imagen": "https://media.falabella.com/sodimacCL/3328449_001/w=1500,h=1500,fit=cover?w=400"
+  }
 ]
